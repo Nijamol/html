@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>it's meee....</h2>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="/home/mca/Pictures/noufi.jpeg" 
+alt="monkey" width="64" height="64">
+<p>The function bigImg() is triggered when the user moves the mouse pointerover the image.</p> 
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+<script>
+function bigImg(x) { 
+x.style.height="128px"; 
+x.style.width = "128px"; 
+}
+function normalImg(x) {
+ x.style.height="64px"; 
+ x.style.width = "64px";
+ }
+</script>
+</body>
+</html>
